@@ -72,6 +72,8 @@ return {
         on_attach = function(bufnr)
           set_nav_keys(bufnr)
           disable_decorations(bufnr)
+          -- Close the prompt with `q` in Normal mode, same as the default <Esc>.
+          vim.keymap.set("n", "q", "<Cmd>q<CR>", { buffer = bufnr, nowait = true, silent = true, desc = "Close prompt" })
           -- The prompt opens in Insert mode, so allow jumping out from there too.
           for _, dir in ipairs({ "h", "l" }) do
             vim.keymap.set("i", "<C-" .. dir .. ">", function()
