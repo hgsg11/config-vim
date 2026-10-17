@@ -1,0 +1,12 @@
+WRN 2026-08-23T15:07:42.919 ?.24106    server_start:199: Failed to start server: operation not permitted: /var/folders/1h/2hcwpx455l75pdw9wf4yvm2c0000gn/T/nvim.hamaguchishigenaga/YnFEqn/nvim.24106.0
+WRN 2026-08-23T15:08:11.350 ?.24147    server_start:199: Failed to start server: operation not permitted: /var/folders/1h/2hcwpx455l75pdw9wf4yvm2c0000gn/T/nvim.hamaguchishigenaga/xMRJWl/nvim.24147.0
+WRN 2026-08-23T15:09:39.834 ?.24197    server_start:199: Failed to start server: operation not permitted: /var/folders/1h/2hcwpx455l75pdw9wf4yvm2c0000gn/T/nvim.hamaguchishigenaga/yIq8jX/nvim.24197.0
+WRN 2026-08-23T15:09:53.785 ?.24281    server_start:199: Failed to start server: operation not permitted: /var/folders/1h/2hcwpx455l75pdw9wf4yvm2c0000gn/T/nvim.hamaguchishigenaga/FUfJB8/nvim.24281.0
+WRN 2026-08-23T18:55:08.944 ?.34649    server_start:199: Failed to start server: operation not permitted: /var/folders/1h/2hcwpx455l75pdw9wf4yvm2c0000gn/T/nvim.hamaguchishigenaga/wVeYcE/nvim.34649.0
+WRN 2026-08-23T19:02:14.942 ?.36231    server_start:199: Failed to start server: operation not permitted: /var/folders/1h/2hcwpx455l75pdw9wf4yvm2c0000gn/T/nvim.hamaguchishigenaga/x95gvh/nvim.36231.0
+WRN 2026-08-23T19:02:20.140 ?.36306    server_start:199: Failed to start server: operation not permitted: /var/folders/1h/2hcwpx455l75pdw9wf4yvm2c0000gn/T/nvim.hamaguchishigenaga/fehc11/nvim.36306.0
+WRN 2026-08-23T22:03:44.696 ?.46022    server_start:199: Failed to start server: operation not permitted: /var/folders/1h/2hcwpx455l75pdw9wf4yvm2c0000gn/T/nvim.hamaguchishigenaga/o93V1o/nvim.46022.0
+WRN 2026-08-23T22:04:58.423 ?.46082    server_start:199: Failed to start server: operation not permitted: /var/folders/1h/2hcwpx455l75pdw9wf4yvm2c0000gn/T/nvim.hamaguchishigenaga/88rtox/nvim.46082.0
+WRN 2026-08-23T22:28:25.528 ?.47867    server_start:199: Failed to start server: operation not permitted: /var/folders/1h/2hcwpx455l75pdw9wf4yvm2c0000gn/T/nvim.hamaguchishigenaga/WMQ87g/nvim.47867.0
+WRN 2026-08-23T22:50:43.440 ?.52663    server_start:199: Failed to start server: operation not permitted: /var/folders/1h/2hcwpx455l75pdw9wf4yvm2c0000gn/T/nvim.hamaguchishigenaga/KlFtfM/nvim.52663.0
+WRN 2026-08-23T22:50:43.464 ?.52662    server_start:199: Failed to start server: operation not permitted: /var/folders/1h/2hcwpx455l75pdw9wf4yvm2c0000gn/T/nvim.hamaguchishigenaga/JdoTvx/nvim.52662.0
