@@ -42,6 +42,14 @@ return {
           },
         },
       },
+      -- lazygit reuses Snacks.terminal, so it inherits terminal.win.keys; keep jj literal here.
+      lazygit = {
+        win = {
+          keys = {
+            term_jj = false,
+          },
+        },
+      },
       picker = {
         enabled = true,
         sources = {
