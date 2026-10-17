@@ -52,6 +52,21 @@ return {
           width_preview = 50,
         },
       })
+      -- mini.files has no built-in `gy`; yank the entry path under the cursor
+      -- to the system clipboard.
+      vim.api.nvim_create_autocmd("User", {
+        pattern = "MiniFilesBufferCreate",
+        callback = function(args)
+          vim.keymap.set("n", "gy", function()
+            local entry = MiniFiles.get_fs_entry()
+            if entry == nil then
+              return vim.notify("Cursor is not on valid entry")
+            end
+            vim.fn.setreg("+", entry.path)
+            vim.notify("Copied path: " .. entry.path)
+          end, { buffer = args.data.buf_id, desc = "Yank path" })
+        end,
+      })
       require("mini.git").setup()
       require("mini.hipatterns").setup()
       require("mini.indentscope").setup()
