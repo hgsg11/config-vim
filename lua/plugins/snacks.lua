@@ -27,6 +27,16 @@ return {
           height = 0.8,
           title = " Terminal ",
           title_pos = "center",
+          keys = {
+            term_jj = {
+              "jj",
+              function()
+                vim.cmd("stopinsert")
+              end,
+              mode = "t",
+              desc = "jj to normal mode",
+            },
+          },
           wo = {
             winhighlight = "Normal:SnacksTerminalNormal,NormalNC:SnacksTerminalNormal,FloatBorder:SnacksTerminalBorder,FloatTitle:SnacksTerminalTitle",
           },
